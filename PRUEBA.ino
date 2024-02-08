@@ -5,8 +5,8 @@
 #include <BlynkSimpleShieldEsp8266.h>
 #include <ESP8266_Lib.h>
 
-// char ssid[] = "NETLIFE-Marinv1965";
-// char pass[] = "1725753345";
+// char ssid[] = "";
+// char pass[] = "";
 
 #define EspSerial Serial1
 ESP8266 wifi(&EspSerial);
@@ -186,22 +186,3 @@ BLYNK_WRITE(V6) {
   int temperaturaValor = readTemperatura();
   Blynk.virtualWrite(V6, temperaturaValor);
 }
-
-// void sensorLluvia() {
-//   int lluviaValor = digitalRead(sensorLluviaPin);
-//   if (lluviaValor == LOW) {
-//     Blynk.virtualWrite(V8, "No está lloviendo");
-//   } else {
-//     Blynk.virtualWrite(V8, "Está lloviendo");
-//   }
-// }
-// BLYNK_WRITE(V8) {
-//   // Aquí puedes agregar el código para actualizar el widget correspondiente al indicador de lluvia en la aplicación Blynk
-//   int lluviaValor = digitalRead(sensorLluviaPin);
-//   if (lluviaValor == HIGH) {
-//     Blynk.virtualWrite(V8, "Está lloviendo");
-//   } else {
-//     Blynk.virtualWrite(V8, "No está lloviendo");
-//   }
-// }
-
