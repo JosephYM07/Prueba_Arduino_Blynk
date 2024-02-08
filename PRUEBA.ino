@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL2wH6etfVY"
-#define BLYNK_TEMPLATE_NAME "GrupoYepezValenzuelaMoreiraVillares"
-#define BLYNK_AUTH_TOKEN "4nHKBN8oAUeNik0EYqk1o8WLo4zbw2F1"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #include <BlynkSimpleShieldEsp8266.h>
 #include <ESP8266_Lib.h>
